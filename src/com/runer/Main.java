@@ -31,6 +31,7 @@ public class Main {
 
 //        List<User> filteredUsers = userList.stream()
 //                .filter(user -> user.getAge() >= 30)
+//                        .collect(Collectors.toList());
 //                .toList();
 
 
