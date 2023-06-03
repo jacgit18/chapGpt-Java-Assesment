@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e705581-dbf3-48ac-93be-7a756ace300d" name="Changes" comment="Init push">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="5e705581-dbf3-48ac-93be-7a756ace300d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anno/CustomAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/annouse/AnnotatedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/annouse/Aspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/collect/CustomCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/logger/LoggerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multithread/MultiThreadingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/runer/OgSkell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/runer/nonSkelDiffImplem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/serial/SerializableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streams/StreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/runer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/runer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/custAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anno/CustAnno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nonskel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anno/CustAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anno/CustAnno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +27,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QYr7RtqoeQQ3gCidNLQYLJfiun" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,7 +59,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.nonSkelDiffImplem">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.runer.Main" />
       <module name="Assesment" />
@@ -64,8 +73,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OgSkell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.runer.OgSkell" />
+      <module name="Assesment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.runer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nonSkelDiffImplem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.runer.nonSkelDiffImplem" />
+      <module name="Assesment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.runer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nonSkelDiffImplem" />
+        <item itemvalue="Application.OgSkell" />
+        <item itemvalue="Java Scratch.scratch" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
