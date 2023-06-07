@@ -1,7 +1,6 @@
 package com.runer;
 
 public class NonStatic {
-
         private static String staticField = "Static field";
         private String instanceField = "Instance field";
 
