@@ -18,12 +18,10 @@ public class AppExecution {
             Thread.sleep(3000);
             System.out.println("Resuming the execution...");
         } catch (InterruptedException e) {
+            System.out.println("catch..");
+
             e.printStackTrace();
         }
-
-        // Terminating the application
-        System.out.println("Terminating the application...");
-        System.exit(0);
 
         // Environment Execution
 
@@ -46,5 +44,12 @@ public class AppExecution {
         System.setProperty("custom.property", "custom value");
         String customProperty = System.getProperty("custom.property");
         System.out.println("Custom Property: " + customProperty);
+
+
+
+        // Terminating the application
+        System.out.println("Terminating the application...");
+        System.exit(0);
+
     }
 }
